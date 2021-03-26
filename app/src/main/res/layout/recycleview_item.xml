@@ -7,8 +7,22 @@
 
     <TextView
         android:id="@+id/textView"
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_orange_light" />
+        android:background="#FFA8A8"
+        android:padding="15dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFD0D0"
+        android:paddingLeft="18dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
 </LinearLayout>

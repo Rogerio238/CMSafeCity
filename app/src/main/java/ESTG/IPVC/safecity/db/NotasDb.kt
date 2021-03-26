@@ -27,9 +27,8 @@ private class NotasDatabaseCallBack(
         INSTANCE?.let{database->
             scope.launch {
                 var notaDao=database.NotaDao()
-                notaDao.deleteAll()
-                var nota = NotasPessoais(1,"Despiste",corpo = "ok")
-                notaDao.insert(nota)
+               // notaDao.deleteAll()
+
 
             }
         }
