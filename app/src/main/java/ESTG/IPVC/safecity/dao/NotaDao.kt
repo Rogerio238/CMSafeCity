@@ -6,6 +6,7 @@ import androidx.room.*
 
 @Dao
 interface NotaDao {
+
     @Query("SELECT * FROM notas_table ORDER BY titulo ASC")
     fun getAlphabetizedNotas(): LiveData<List<NotasPessoais>>
 
@@ -16,11 +17,11 @@ interface NotaDao {
     suspend fun deleteAll()
 
     @Update
-suspend fun updateNota(nota: NotasPessoais)
+    suspend fun updateNota(nota: NotasPessoais)
 
-@Query("DELETE FROM notas_table WHERE id == :id")
-suspend fun deleteNotaById(id: Int)
+    @Query("DELETE FROM notas_table WHERE id == :id")
+    suspend fun deleteNotaById(id: Int)
 
-@Query("UPDATE notas_table SET titulo=:titulo , corpo=:corpo WHERE id == :id")
-suspend fun update(titulo: String,corpo: String,id: Int)
+    @Query("UPDATE notas_table SET titulo=:titulo , corpo=:corpo WHERE id == :id")
+    suspend fun update(titulo: String,corpo: String,id: Int)
 }
