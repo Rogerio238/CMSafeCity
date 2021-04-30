@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">SafeCity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nome_user">Username</string>
+    <string name="pass">Password</string>
+    <string name="login_form_title">Sign Up</string>
+    <string name="checkbox">Save Login</string>
+    <string name="preference_file_key" translatable="false">ficheiro1</string>
+    <string name="add_acidente">Insert acident</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="tipo">Type</string>
+    <string name="descricao">Description</string>
+    <string name="filtrar1">Show Acident</string>
+    <string name="filtrar2">Show road works</string>
+    <string name="filtrarall">Show all</string>
 
 </resources>

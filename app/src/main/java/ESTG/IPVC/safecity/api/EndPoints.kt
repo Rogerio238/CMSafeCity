@@ -3,7 +3,7 @@ package ESTG.IPVC.safecity.api
 import retrofit2.Call
 import retrofit2.http.*
 
-interface EndPoints {
+interface  EndPoints {
     @GET("/users")
     fun getUsers():Call<List<User>>
     @GET("/users/{id}")
