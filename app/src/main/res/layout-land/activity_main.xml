@@ -16,13 +16,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
-      <Button
-          android:layout_width="0dp"
-          android:onClick="getSingle"
-          android:layout_height="wrap_content"
-          android:layout_weight="1"
-          android:text="Get single">
-      </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Get single"></Button>
         <Button
             android:layout_width="0dp"
             android:onClick="post"
