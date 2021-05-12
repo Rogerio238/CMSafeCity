@@ -1,18 +1,17 @@
 <resources>
-    <string name="app_name">SafeCity</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="nome_user">Username</string>
-    <string name="pass">Password</string>
-    <string name="login_form_title">Sign Up</string>
-    <string name="checkbox">Save Login</string>
-    <string name="preference_file_key" translatable="false">ficheiro1</string>
-    <string name="add_acidente">Insert acident</string>
-    <string name="logout">Logout</string>
-    <string name="login">Login</string>
-    <string name="tipo">Type</string>
-    <string name="descricao">Description</string>
-    <string name="filtrar1">Show Acident</string>
-    <string name="filtrar2">Show road works</string>
-    <string name="filtrarall">Show all</string>
-
+    <string name="app_name" translatable="false">SafeCity</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="nome_user" translatable="false">Username</string>
+    <string name="pass" translatable="false">Password</string>
+    <string name="login_form_title" translatable="false">Sign In</string>
+    <string name="checkbox" translatable="false">Save Login</string>
+    <string name="preference_file_key" translatable="false">file1</string>
+    <string name="add_acidente" translatable="false">Insert accident</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="tipo" translatable="false">Type</string>
+    <string name="descricao" translatable="false">Description</string>
+    <string name="filtrarTipoId" translatable="false">Show By Type</string>
+    <string name="add_ocorrencia" translatable="false">Add Report</string>
+    <string name="nota" translatable="false">Notes</string>
 </resources>

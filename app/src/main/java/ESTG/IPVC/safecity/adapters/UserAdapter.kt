@@ -29,9 +29,9 @@ class UserAdapter (val users:List<User>): RecyclerView.Adapter<UserViewHolder>()
         private val email: TextView =itemView.findViewById(R.id.email)
         private val city: TextView =itemView.findViewById(R.id.city)
         fun bind(user:User){
-            name.text = user.name
-            city.text=user.address.city
-            email.text=email.text
+            name.text = user.user
+            city.text=user.titulo
+            email.text=user.descricao
     }
 }
 
