@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeCity</string>
+    <string name="title_activity_maps" translatable="false">Mapa</string>
+    <string name="nome_user" translatable="false">Utilizador</string>
+    <string name="pass" translatable="false">Password</string>
+    <string name="login_form_title" translatable="false">Entrar</string>
+    <string name="checkbox" translatable="false">Guardar Dados</string>
+    <string name="preference_file_key" translatable="false">ficheiro 1</string>
+    <string name="add_acidente" translatable="false">Adicionar Acidente</string>
+    <string name="logout" translatable="false">Sair</string>
+    <string name="login" translatable="false">Entrar</string>
+    <string name="tipo" translatable="false">Tipo</string>
+    <string name="descricao" translatable="false">Descrição</string>
+    <string name="filtrarTipoId" translatable="false">Mostrar por Tipo</string>
+    <string name="add_ocorrencia" translatable="false">Adicionar um Reporte</string>
+    <string name="nota" translatable="false">Notas</string>
+</resources>

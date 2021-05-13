@@ -1,6 +1,8 @@
 package ESTG.IPVC.safecity.api
 
-class OutputPost (
-    val id:Int,
-    val title:String
+data class OutputPost (
+    val error: Boolean,
+    val title: Int,
+    val desc: String
 )
+

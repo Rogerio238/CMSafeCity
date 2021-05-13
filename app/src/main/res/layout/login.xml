@@ -68,13 +68,13 @@
                 android:text="@string/checkbox"/>
 
             <Button
+                android:id="@+id/notas_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:id="@+id/notas_button"
-                android:text="Notas"
                 android:backgroundTint="@color/colorPrimary2"
-                android:textSize="15sp"/>
+                android:text="@string/nota"
+                android:textSize="15sp" />
 
         </LinearLayout>
 

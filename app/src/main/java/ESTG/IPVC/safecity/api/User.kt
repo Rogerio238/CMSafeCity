@@ -1,25 +1,23 @@
 package ESTG.IPVC.safecity.api
 
+
+
 data class User(
     val id:Int,
-    val User_id: String,
-    val name:String,
-    val email:String,
-    val address: Address
+    val titulo:String,
+    val descricao:String,
+    val latitude:String,
+    val longitude:String,
+    val userid:Int,
+    val user:String,
+    val tipo_id:Int,
+    val tipo_ocorrencia:String,
+    val password:String
 )
+
 data class iduser(
-    val id: String?
+        val id: String?
 )
 
-data class Address(
-    val street: String,
-    val suite: String,
-    val city: String,
-    val zipcode: String,
-    val geo: Geo
-)
 
-data class Geo(
-    val lat: String,
-    val lng: String
-)
+
